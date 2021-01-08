@@ -1,7 +1,7 @@
 {
   "name": "@nisfan/react-shared-package",
   "version": "1.0.3",
-  "main": "index.js",
+  "main": "lib/dev.js",
   "license": "MIT",
   "scripts": {
     "build:dev": "cross-env NODE_ENV=development rollup -c",
