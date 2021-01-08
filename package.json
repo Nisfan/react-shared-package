@@ -1,0 +1,38 @@
+{
+  "name": "@simplur/react-shared-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
+    "build:prod": "cross-env NODE_ENV=production rollup -c"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@rollup/plugin-babel": "^5.2.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "@rollup/plugin-replace": "^2.3.4",
+    "husky": "^4.3.7",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.36.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier  --write",
+      "pre-push": "yarn run test"
+    }
+  }
+}
