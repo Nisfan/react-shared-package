@@ -1,6 +1,6 @@
 {
-  "name": "@simplur/react-shared-package",
-  "version": "1.0.0",
+  "name": "@nisfan/react-shared-package",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -34,5 +34,9 @@
       "pre-commit": "prettier  --write",
       "pre-push": "yarn run test"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nisfan/react-shared-package.git"
   }
 }
