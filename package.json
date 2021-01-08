@@ -1,6 +1,6 @@
 {
   "name": "@nisfan/react-shared-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/dev.js",
   "license": "MIT",
   "scripts": {
